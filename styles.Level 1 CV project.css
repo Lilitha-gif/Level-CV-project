@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    flex: 0 0 150px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.personal-info {
+    margin-left: 20px;
+}
+
+.personal-info h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
+
+.content h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.job, .school {
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.skills .skill {
+    margin-bottom: 10px;
+}
+
+.skills .skill span {
+    display: inline-block;
+    width: 100px;
+}
+
+.rating {
+    display: inline-block;
+    width: 60%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.rating-bar {
+    height: 100%;
+    background-color: #4caf50;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link {
+    font-size: 2em; 
+    color: #333; 
+    text-decoration: none; 
+}
+
+.social-link:hover {
+    color: #007BFF; 
+}
